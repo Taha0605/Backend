@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Post Practice</title>
+</head>
+<body>
+    <h1>USER</h1>
+
+    <h2>Send the info</h2>
+    <form action="http://localhost:3000/signup" method="post">
+        <input type="text" name="username">
+        <button>Submit</button>
+    </form>
+
+    <h2>Display the info</h2>
+    <form action="http://localhost:3000/signup" method = "get">
+        <input type="text" name="username">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
